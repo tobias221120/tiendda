@@ -1,0 +1,81 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 4em;
+  min-height: 100vh;
+  background-image: linear-gradient(180deg, #ffb629 0, #ffa537 10%, #ff9243 20%, #ff7e4b 30%, #ff6951 40%, #f25353 50%, #d93f53 60%, #c22f54 70%, #ad2355 80%, #9b1b56 90%, #8c1859 100%); }
+
+.nav-item .nav-link:hover {
+  color: rgba(255, 0, 0, 0.39); }
+
+.card {
+  width: 300px;
+  border-color: black; }
+
+.btn {
+  background-color: brown;
+  width: 100%;
+  font-size: 20px; }
+
+.btn:hover {
+  background: rgba(160, 21, 21, 0.795); }
+
+.precio {
+  font-family: fantasy; }
+
+.card-body {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  transform: all 2s; }
+
+.conteiner-form {
+  margin: 100px 0; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%; }
+
+label {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 20px 0 5px 0; }
+
+input {
+  font-size: 18px;
+  padding: 10px; }
+
+.containerButton {
+  display: flex;
+  justify-content: flex-end; }
+
+.enviar {
+  width: 250px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  margin: 30px 0;
+  font-size: 18px;
+  color: #ffffff;
+  background: #2e2d2d;
+  letter-spacing: 1px; }
+
+.buttons {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around; }
+
+.titulo, .conteiner-form {
+  display: flex;
+  justify-content: center; }
+
+.texto {
+  color: #f7f0f0;
+  font-size: 20px;
+  padding-left: 10px; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  .footer .Copyright {
+    background: black; }

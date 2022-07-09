@@ -1,0 +1,72 @@
+
+.card{
+    width:300px;
+    border-color: black;
+}
+.btn{
+    background-color: brown;
+    width: 100%;
+    font-size:20px ;
+
+}
+.btn:hover{
+    background:rgba(160, 21, 21, 0.795);
+}
+.precio{
+    font-family: fantasy;
+}
+
+.card-body{
+    box-shadow: hsla(0, 0%, 0%, 0.56) 0px 22px 70px 4px;
+    transform: all 2s;
+}
+.conteiner-form{
+    @extend .titulo;
+    margin: 100px 0 ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+label{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 20px 0 5px 0;
+}
+input{
+    font-size: 18px;
+    padding: 10px;
+}
+.containerButton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.enviar{
+    width:map-get($enviar , width ) ;
+    padding: map-get($enviar, padding ) ;
+    text-transform: map-get($enviar, text-transform );
+    margin: map-get($enviar , margin );
+    font-size: map-get($enviar , font-size );
+    color: map-get($enviar , color );
+    background: map-get($enviar, background );
+    letter-spacing: map-get($enviar, letter-spacing );
+}
+
+
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .titulo{
+    display: flex;
+    justify-content: center;
+   } .texto{
+    color: rgb(247, 240, 240);
+    font-size: 20px;
+    padding-left: 10px;
+   
+   } 
